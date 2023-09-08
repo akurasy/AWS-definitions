@@ -1,0 +1,148 @@
+IAM roles allow you to delegate access to users or services that normally don't have access to your organization's AWS resources. IAM users or AWS services can assume a role to obtain temporary security credentials that can be used to make AWS API calls. Consequently, you don't have to share long-term credentials for access to a resource. Using IAM roles, 
+it is possible to access cross-account resources.
+
+consolidated billing allows all aws account in an organisation to be billed as one. it helps to reduce cost spent on aws resources.
+
+AWS Config provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related 
+to one another and how they were configured in the past so that you can see how the configurations and relationships change over time.
+
+aws VPN cloudhub is used If you have multiple AWS Site-to-Site VPN connections, you can provide secure communication between sites using the AWS VPN CloudHub.
+This enables your remote sites to communicate with each other, and not just with the VPC. it is suitable if you have a multiple branch office.
+
+Aurora replicas and CloudFront distribution is used to make the application more resilient to spikes in request rates.
+
+
+AWS Global Accelerator is a service that improves the availability and performance of your applications with local or global users. 
+It provides static IP addresses that act as a fixed entry point to your application endpoints in a single or multiple AWS Regions, 
+such as your Application Load Balancers, Network Load Balancers or Amazon EC2 instances. Global Accelerator is a good fit for non-HTTP use cases, 
+such as gaming (UDP), IoT (MQTT), or Voice over IP, as well as for HTTP use cases that specifically require static IP addresses or deterministic.
+
+AWS Direct Connect is a networking service that provides an alternative to using the internet to connect to AWS. 
+Using AWS Direct Connect, data that would have previously been transported over the internet is delivered through a private network connection between 
+your on-premises data center and AWS. you are charged based on data sent outside AWS to other servers.
+
+VPC sharing allows multiple AWS accounts to create their application resources such as EC2 instances, RDS databases, Redshift clusters, and Lambda functions, 
+into shared and centrally-managed Amazon Virtual Private Clouds (VPCs). To set this up, the account that owns the VPC (owner) shares one or more subnets
+with other accounts (participants) that belong to the same organization from AWS Organizations. After a subnet is shared, the participants can view,
+create, modify, and delete their application resources in the subnets shared with them. Participants cannot view, modify, or delete resources
+that belong to other participants or the VPC owner.
+
+the difference between fargate and lamda:
+AWS Fargate is better suited for running long-lived containerized applications that require more control over resources and infrastructure, 
+while AWS Lambda is ideal for event-driven, stateless functions with automatic scaling and minimal management overhead.
+The choice between them depends on your specific use case and requirements.
+
+
+AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js,
+Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS.
+
+instance user data is the data that you specified in the form of a configuration script while launching your instance.
+You can use EC2 user data to customize the dynamic installation parts at boot time, rather than installing the application itself at boot time.
+
+Golden AMI is an AMI that you standardize through configuration, consistent security patching, and hardening. It also contains agents you approve for logging, 
+security, performance monitoring, etc
+
+STEPS IN CREATING A FIFO:
+make sure the name of the FIFO queue ends with the suffix .fifo
+delete existing SQS and recreate it as fifo queue
+make sure the throughput for the fifo target does niot exceed 3000 messages per seconds. this achieved via batching of 10 queues each with 300 throughputs.
+
+With bucket policies, you can grant users within your AWS Account or other AWS Accounts access to your Amazon S3 resources.
+
+an AWS Gateway Endpoint is a networking feature that allows for secure and private communication between resources in your VPC and specific AWS services,
+reducing exposure to the public internet and potentially lowering data transfer costs.
+the two services that supports gateway endpoint = AMAZON S3 AND DYNAMODB. The rest of the AWS services use VPC interface endpoints.
+
+IF THE PROBLEM IS PERFORMANCE (NETWORK CONNECTIVITY), USE CLUSTER.
+IF THE PROBLEM IS AVAILABILITY, USE PARTITION
+IF THE PROBLEM IS FAULT TOLERANCE, USE SPREAD . max of 7 instances per AZ. 
+
+Amazon RDS is a managed service that makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient 
+and resizable capacity while managing time-consuming database administration tasks. can be spinned up in multi AZ.
+
+Amazon Cognito User Pools is used to either provide built-in user management or integrate with external identity providers, such as Facebook, Twitter, 
+Google+, and Amazon. A user pool is a user directory in Amazon Cognito.
+
+A permissions boundary can be used to control the maximum permissions employees can grant to the IAM principals (that is, users and roles) that they create and manage.
+
+
+AWS Cost Explorer helps you identify under-utilized EC2 instances that may be downsized on an instance by instance basis within the same instance family, 
+and also understand the potential impact on your AWS bill by taking into account your Reserved Instances and Savings Plans.
+
+AWS Compute Optimizer recommends optimal AWS Compute resources for your workloads to reduce costs and improve performance by using 
+machine learning to analyze historical utilization metrics. Compute Optimizer helps you choose the optimal Amazon EC2 instance types,
+including those that are part of an Amazon EC2 Auto Scaling group, based on your utilization data.
+
+FSx for Lustre provides the ability to both process the 'hot data' in a parallel and distributed fashion as well as easily store the 'cold data' on Amazon S3
+
+in EBS volume:
+data at rest in encrypted, data moving between ebs and instance is encrypted, snapshot volume are also encrypted.
+
+you cannot set up new aurora db instance and set it up as a read replica for the primary db.
+
+Amazon Kinesis makes it easy to collect, process, and analyze real-time, streaming data so you can get timely insights and react quickly to new information.
+
+Amazon Simple Notification Service (SNS) is a highly available, durable, secure, fully managed pub/sub messaging service that enables you to decouple microservices,
+distributed systems, and serverless applications. Amazon SNS provides topics for high-throughput, push-based, many-to-many messaging. SNS is a notification service.
+
+ 
+MFA and versioning prevents accidental deletion of an object.
+
+By default, the root volume for an AMI backed by Amazon EBS is deleted when the instance terminates. You can change the default behavior to ensure
+that the volume persists after the instance terminates. Non-root EBS volumes remain available even after you terminate an instance to which the volumes were attached
+
+A launch configuration is an instance configuration template that an Auto Scaling group uses to launch EC2 instances.
+It is not possible to modify a launch configuration once it is created.
+
+the reason for unhealthy response by ALB for an healthy instance:
+the route for the health chcek is misconfigured, the SG of the the instance does not allow traffic from the SG o the LB.
+
+these are the characteristics of ec2 user-data configuration:
+-script excuted with user-data uses the root-user privilege
+-by default, user-data runs only during the boot-cycle when you first launched an instance.
+
+GuardDuty is for threat detection, Identifies malicious or unauthorized activities in your AWS environment.
+Macie is for data security,Helps discover and protect sensitive data (such as PII) within your AWS environment.
+Inspector is for vulnerability assessment and best practices. Evaluates the security of your AWS resources and provides recommendations.
+
+Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the cloud
+
+Using Amazon Redshift Spectrum, you can efficiently query and retrieve structured and semistructured data from files in Amazon S3 without 
+having to load the data into Amazon Redshift tables.
+
+data sources of amazon guard duty includes: dns log, vpc flow logs, and cloud train events
+
+ Amazon DynamoDB is a key-value and document database that delivers single-digit millisecond performance at any scale.
+
+Neptune enables highly interactive graph queries with high throughput to bring social features into your applications. For example,
+if you are building a social feed into your application, you can use Neptune to provide results that prioritize showing your users the 
+latest updates from their family, from friends whose updates they ‘Like,’ and from friends who live close to them.
+
+AWS CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account.
+With CloudTrail, you can log, continuously monitor, and retain account activity related to actions across your AWS infrastructure.
+CloudTrail provides event history of your AWS account activity, including actions taken through the AWS Management Console, AWS SDKs, command-line tools, and other AWS services.
+
+Redis authentication tokens enable Redis to require a token (password) before allowing clients to execute commands, thereby improving data security.
+
+The minimum storage duration is 30 days before you can transition objects from S3 Standard to S3 One Zone-IA.
+
+A transit gateway is a network transit hub that you can use to interconnect your virtual private clouds (VPC) and on-premises networks.
+
+in a NLB, If you specify targets using an instance ID, traffic is routed to instances using the primary private IP address specified in the 
+primary network interface for the instance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

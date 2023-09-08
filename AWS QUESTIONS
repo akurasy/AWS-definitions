@@ -1,0 +1,91 @@
+PLS NOTE. THIS QUESTIONS ARE TO BE ANSWERED ON A PAPER.
+
+what is IAM ROLE and its usefulness.
+
+what is the importance of consolidated billing 
+
+what is aws config
+
+what is aws vpn cloudhub
+
+what is the usecase of aurora replica and cloudfront distribution
+
+what is global accelerator
+
+what is aws direct connect connection
+
+what is the diffrence between fargate and lambda
+
+what is elastic beanstalk
+
+what is Golden AMI
+
+what are the steps in creating SQS-FIFO
+
+what is the permission level of a bucket policy
+
+which aws resources supports gataeway endpoint and what is gateway endpoint.
+
+explain the follow terms cluster, partitioned and spread placement group.
+
+what is amazon RDS
+
+what is amazon cognitor user pool
+
+what is permission boundary.
+
+what is aws cost explorer and aws compute optimizer.
+
+what is S3 FXs for Lustre.
+
+what are the charateristics of the data in EBS volume.
+
+can you provision a new aurora database and set it up as a read replica with the primary database
+
+what is SNS
+
+what is amazon kinesis
+
+what is the us of MFA and versioning in AWS S3 
+
+What happens to the root ebs volume and attached ebs volume when an instance is terminated.
+
+what is launch configuration. can it be modified 
+
+what are the reasons for an incorrect unhealthy response by an ALB.
+
+what are the charateristics of ec2 user-data configuration.
+
+explain the key diffrence between amazon guardduty, amazon macie and amazon inspect.
+
+what is amazon redshift and redshift spectrum.
+
+what are the data sources of amazon guardduty 
+
+what is the key feature of a dynamodb
+
+when building a social application, which database should you consider 
+
+what is a redis authy
+
+what is minimum storage duration before you can transition an object from standard storage class to s3 one-zone IA
+
+What is a transit gateway.
+
+what is the routing pattern of NLB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
