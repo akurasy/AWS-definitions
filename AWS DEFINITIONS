@@ -131,6 +131,7 @@ A transit gateway is a network transit hub that you can use to interconnect your
 in a NLB, If you specify targets using an instance ID, traffic is routed to instances using the primary private IP address specified in the 
 primary network interface for the instance
 
+Job bookmarking is a mechanism that allows AWS Glue to keep track of where a job is left off in case it gets interrupted or fails for any reason
 
 
 
