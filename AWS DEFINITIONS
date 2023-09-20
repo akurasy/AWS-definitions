@@ -133,6 +133,19 @@ primary network interface for the instance
 
 Job bookmarking is a mechanism that allows AWS Glue to keep track of where a job is left off in case it gets interrupted or fails for any reason
 
+to change the instance type of a running instance, say from t2.micro to t2.large, create a new launch configuration and update the ASG. 
+
+If your identity store is not compatible with SAML 2.0 then you can build a custom identity broker application to perform a similar function. 
+this can be done using STS, SAML or custom identity broker.
+
+AWS personal health shows events of your EC2 instance and other resource events logs
+AWS service health shows public events that may affect customers in several regions and not related to EC2.
+
+if Amazon SQS doesn't give the required decoupling essence, use FIFO and amazon Simple Work Flow (SWF)
+Amazon SWF ensures that a task is never duplicated and its assigned only once. 
+
+
+
 
 
 
