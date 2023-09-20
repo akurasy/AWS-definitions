@@ -144,7 +144,8 @@ AWS service health shows public events that may affect customers in several regi
 if Amazon SQS doesn't give the required decoupling essence, use FIFO and amazon Simple Work Flow (SWF)
 Amazon SWF ensures that a task is never duplicated and its assigned only once. 
 
-
+RAID 1 is used for data mirroring 
+RAID 0 is to improve performance. 
 
 
 
