@@ -155,7 +155,7 @@ DynamoDB is integrated with Lambda function. you can trigger a Lambda function w
 Low Queue length increases performance in volume. 
 PLS NOTE THIS FORMULAR. 50 × IOPS = Amount of Volume in Gigabytes. 
 
-
+The enhanced monitory metrics of cloud attached to an RDS DB is OS processes and RDS-Child Processes.
 
 
 
