@@ -147,7 +147,13 @@ Amazon SWF ensures that a task is never duplicated and its assigned only once.
 RAID 1 is used for data mirroring 
 RAID 0 is to improve performance. 
 
+Anywhere you see termination of any kind of instance in an exam, just know that any root volume is terminated or deleted alongside. it only persists if it is attached. 
 
+
+DynamoDB is integrated with Lambda function. you can trigger a Lambda function with DynamoDB stream. 
+
+Low Queue length increases performance in volume. 
+PLS NOTE THIS FORMULAR. 50 × IOPS = Amount of Volume in Gigabytes. 
 
 
 
