@@ -157,7 +157,7 @@ PLS NOTE THIS FORMULAR. 50 × IOPS = Amount of Volume in Gigabytes.
 
 The enhanced monitory metrics of cloud attached to an RDS DB is OS processes and RDS-Child Processes.
 
-
+If you got your certificate from a third-party CA, import the certificate into ACM or upload it to the IAM certificate store. 
 
 
 
