@@ -159,6 +159,11 @@ The enhanced monitory metrics of cloud attached to an RDS DB is OS processes and
 
 If you got your certificate from a third-party CA, import the certificate into ACM or upload it to the IAM certificate store. 
 
+You can use ACM to generate both public and private SSL/TLS certificate. 
+
+
+When the protocol is UDP, select a NLB as the LB to use. 
+DynamoDB is a key-value DB. 
 
 
 
