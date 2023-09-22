@@ -165,6 +165,15 @@ You can use ACM to generate both public and private SSL/TLS certificate.
 When the protocol is UDP, select a NLB as the LB to use. 
 DynamoDB is a key-value DB. 
 
+An Elastic Fabric Adapter (EFA) is a network device that you can attach to your Amazon EC2 instance to accelerate High Performance Computing (HPC) and machine learning applications
+
+Pls note you cannot add dynamodb table to an ASG, only EC2 can be added to ASG
+to autoscale a DynamoDB,  use inbuilt capacity of DynamoDB autoscaling. 
+
+AWS License Manager is a service that makes it easier for you to manage your software licenses from software vendors (for example, Microsoft, SAP, Oracle, and IBM) centrally across AWS and your on-premises environments.
+
+EBS Volume types: Magnetic volume is the cheapest, provisioned IOPs is best for High Performance workload.
+
 
 
 
