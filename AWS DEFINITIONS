@@ -184,3 +184,5 @@ Amazon RDS are ACID compliance.
 • Capacity Reservations: you book a room for a period with full price even you don’t stay in it
 
 RUN command is used to manage and configure ec2 instance without using rdp or ssh.
+
+Anycast, also known as IP Anycast or Anycast routing, is an IP network addressing scheme that allows multiple servers to share the same IP address, allowing for multiple physical destination servers to be logically identified by a single IP address.
