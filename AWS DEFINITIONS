@@ -194,3 +194,5 @@ If HSM key is zeroized, it cannot be retrieved. zeroized means permanently delet
 Amazon EKS supports two autoscaling products:
 - Karpenter
 - Cluster Autoscaler
+
+use Amazon Workspace to create the needed virtual desktops in your VPC.
