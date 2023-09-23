@@ -153,7 +153,7 @@ Anywhere you see termination of any kind of instance in an exam, just know that 
 DynamoDB is integrated with Lambda function. you can trigger a Lambda function with DynamoDB stream. 
 
 Low Queue length increases performance in volume. 
-PLS NOTE THIS FORMULAR. 50 × IOPS = Amount of Volume in Gigabytes. 
+PLS NOTE THIS FORMULAR. 50 × Amount of Volume in Gigabytes = IOPS
 
 The enhanced monitory metrics of cloud attached to an RDS DB is OS processes and RDS-Child Processes.
 
