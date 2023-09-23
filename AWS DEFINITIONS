@@ -183,3 +183,4 @@ Amazon RDS are ACID compliance.
 • Dedicated Hosts: We book an entire building of the resort
 • Capacity Reservations: you book a room for a period with full price even you don’t stay in it
 
+RUN command is used to manage and configure ec2 instance without using rdp or ssh.
