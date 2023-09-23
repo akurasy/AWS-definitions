@@ -190,3 +190,7 @@ Anycast, also known as IP Anycast or Anycast routing, is an IP network addressin
 Yes, an EBS volume can be used while a snapshot is being taken. Snapshots are taken as point-in-time copies of the volume and do not impact the volume's normal operation.
 
 If HSM key is zeroized, it cannot be retrieved. zeroized means permanently delete. 
+
+Amazon EKS supports two autoscaling products:
+- Karpenter
+- Cluster Autoscaler
