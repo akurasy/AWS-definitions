@@ -204,3 +204,5 @@ You cannot use MFA to connect to a database. use IAM DB authentication
 
 Kinesis Data Stream only stores data for 24hours by default. you can request a higher storage time up to 1year. 
 
+Asymmetric and symmetric encryption are two primary techniques used to secure data. Symmetric encryption uses the same key for both encryption and decryption,
+while asymmetric encryption uses a pair of keys: a public key for encryption and a private key for decryption.
