@@ -202,3 +202,5 @@ EFA = enhances Os Bypass functionality in linux
 
 You cannot use MFA to connect to a database. use IAM DB authentication 
 
+Kinesis Data Stream only stores data for 24hours by default. you can request a higher storage time up to 1year. 
+
