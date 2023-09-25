@@ -219,8 +219,9 @@ suspended and resume scaling, to temporarily pause a scaling activities.
 use Canary stage option when deploying a new version of applications using API Gateway. 
 it's cost effective and cheaper than blue-green method. 
 
-
-
+in compliance mode, objects cannot be deleted by any user or even the root user. 
+in governance mode, permissions can be given to the user to delete an object. 
+legal hold vs retention period. legal hold can be removed by any users, retention period cannot be removed by a user. 
 
 
 
