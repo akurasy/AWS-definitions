@@ -207,7 +207,21 @@ Kinesis Data Stream only stores data for 24hours by default. you can request a h
 Asymmetric and symmetric encryption are two primary techniques used to secure data. Symmetric encryption uses the same key for both encryption and decryption,
 while asymmetric encryption uses a pair of keys: a public key for encryption and a private key for decryption.
 
-S3 object lock in compliance mode with a legal hold prevents even the root use from deleting an object from S3 bucket. 
+S3 object lock in compliance mode with a retention period prevents even the root use from deleting an object from S3 bucket. 
+
+target scaling policy can increase or decrease capacity based on based on target value. 
+it prevents you from over-provisioning an instance . This is a step scaling policy because it triggers capacity without waiting for the cooldown period   
+simple scaling policy waits for the cooldown period before it triggers another capacity. 
+schedule scaling. when the target group is known for a certain predictive pattern within a specific time frame. 
+predictive scaling, when time frame is unknown but scaling pattern is known. 
+suspended and resume scaling, to temporarily pause a scaling activities.
+
+use Canary stage option when deploying a new version of applications using API Gateway. 
+it's cost effective and cheaper than blue-green method. 
 
 
-Legal Hold 
+
+
+
+
+
