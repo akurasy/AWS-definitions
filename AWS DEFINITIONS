@@ -206,3 +206,8 @@ Kinesis Data Stream only stores data for 24hours by default. you can request a h
 
 Asymmetric and symmetric encryption are two primary techniques used to secure data. Symmetric encryption uses the same key for both encryption and decryption,
 while asymmetric encryption uses a pair of keys: a public key for encryption and a private key for decryption.
+
+S3 object lock in compliance mode with a legal hold prevents even the root use from deleting an object from S3 bucket. 
+
+
+Legal Hold 
