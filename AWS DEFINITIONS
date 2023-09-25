@@ -224,6 +224,7 @@ in compliance mode, objects cannot be deleted by any user or even the root user.
 in governance mode, permissions can be given to the user to delete an object. 
 legal hold vs retention period. legal hold can be removed by any users, retention period cannot be removed by a user. 
 
+Microsoft Ad Identity Federation is focused on integrating Microsoft Active Directory (AD) with other identity systems, while Web Identity Federation is a broader concept that involves integrating web-based identity providers (e.g., social logins) with various web applications.
 
 
 
