@@ -226,5 +226,12 @@ legal hold vs retention period. legal hold can be removed by any users, retentio
 
 Microsoft Ad Identity Federation is focused on integrating Microsoft Active Directory (AD) with other identity systems, while Web Identity Federation is a broader concept that involves integrating web-based identity providers (e.g., social logins) with various web applications.
 
+AWS Artefact is used to provide access to AWS security and compliance report. 
+
+use Lambda to handle traffic bursting in seconds. 
+
+You cannot disable versioning when object lock is enabled. 
+
+NoSQL is schema flexible than SQL. DynamoDB is good for application that required flexible changes in schema than RDS DB
 
 
