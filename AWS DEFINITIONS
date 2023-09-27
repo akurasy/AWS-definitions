@@ -111,7 +111,7 @@ Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the
 Using Amazon Redshift Spectrum, you can efficiently query and retrieve structured and semistructured data from files in Amazon S3 without 
 having to load the data into Amazon Redshift tables.
 
-data sources of amazon guard duty includes: dns log, vpc flow logs, and cloud train events
+data sources of amazon guard duty includes: dns log, vpc flow logs, and cloudtrail events
 
  Amazon DynamoDB is a key-value and document database that delivers single-digit millisecond performance at any scale.
 
@@ -233,3 +233,10 @@ use Lambda to handle traffic bursting in seconds.
 You cannot disable versioning when object lock is enabled. 
 
 NoSQL is schema flexible than SQL. DynamoDB is good for application that required flexible changes in schema than RDS DB.
+
+lambda@edge function vs cloudfront function. 
+lambda@edge = for applications written in node.js and python language
+cloudfront = for application written in javascript.
+
+RDS proxy is used to enhance connectivity between Lambda and RDS. it ensures that RDS is not loaded with requests from lambda.
+lambda connects to rds proxy and rds proxy connects to your RDS.
