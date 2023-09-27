@@ -249,3 +249,17 @@ client ======> api gateway ======> kinesis data stream ========> kinesis data fi
 it prevents clients from having a direct access to your application database.
 
 step function is used to have a visual workflow of your lambda function.
+
+REKOGNITION = face labelling, celebrity recognition and face detection
+TRANSCRIBE = transcribe voice to text. example; subtitle
+POLLY = text to audio
+TRANSLATE = translation
+LEX = build conversation bot; chatbot
+CONNECT = cloud contact center
+COMPREHEND = natural language processing (NLP)
+SAGEMAKER = ML for every developers and data scientists
+FORECAST = build highly accurate forecast
+KENDRA = ML powered search engine
+PERSONALIZED = real-time personalized recommendations
+TEXTRACT = detect text and data in documents
+
