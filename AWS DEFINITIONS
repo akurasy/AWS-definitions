@@ -248,4 +248,4 @@ This is a serverless gateway from AWS which allows us to create a rest API that 
 client ======> api gateway ======> kinesis data stream ========> kinesis data firehose ===========> S3 
 it prevents clients from having a direct access to your application database.
 
-step function is used to have a visual workflow of your lambda function
+step function is used to have a visual workflow of your lambda function.
