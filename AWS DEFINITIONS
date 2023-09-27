@@ -232,6 +232,4 @@ use Lambda to handle traffic bursting in seconds.
 
 You cannot disable versioning when object lock is enabled. 
 
-NoSQL is schema flexible than SQL. DynamoDB is good for application that required flexible changes in schema than RDS DB
-
-
+NoSQL is schema flexible than SQL. DynamoDB is good for application that required flexible changes in schema than RDS DB.
