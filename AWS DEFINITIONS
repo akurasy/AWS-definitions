@@ -244,7 +244,7 @@ lambda connects to rds proxy and rds proxy connects to your RDS.
                                           rds proxy
 client ====> api gateway ====== > lambda =========> database. 
 
-This is a serverless gateway from AWS which allows us to create a rest API that can be made public and accessible for clients. support for websocket protocol
+Api Gateway is a serverless gateway from AWS which allows us to create a rest API that can be made public and accessible for clients. support for websocket protocol
 client ======> api gateway ======> kinesis data stream ========> kinesis data firehose ===========> S3 
 it prevents clients from having a direct access to your application database.
 
@@ -263,3 +263,5 @@ KENDRA = ML powered search engine
 PERSONALIZED = real-time personalized recommendations
 TEXTRACT = detect text and data in documents
 
+CNAME - routes traffic from one domain to another domain. 
+Alias - routes traffic from a domain to AWS resources.
