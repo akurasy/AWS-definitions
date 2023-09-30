@@ -176,6 +176,7 @@ AWS License Manager is a service that makes it easier for you to manage your sof
 EBS Volume types: Magnetic volume is the cheapest, provisioned IOPs is best for High Performance workload..
 
 Amazon  Aurora is the RDS that is ACID compliance. 
+Remember ACIDAURORA
 
 • On demand: coming and staying in resort whenever we like, we pay the full price
 • Reserved: like planning ahead and if we plan to stay for a long time, we may get a good discount.
