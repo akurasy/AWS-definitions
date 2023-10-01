@@ -266,3 +266,5 @@ TEXTRACT = detect text and data in documents
 
 CNAME - routes traffic from one domain to another domain. 
 Alias - routes traffic from a domain to AWS resources.
+
+Standby instances are temporarily removed the the ASG and TG of the load balancer.
