@@ -281,3 +281,6 @@ API Gateway, SQS and KDS are the best services that can handle throttling or buf
 Cognito User Pools handle user authentication and user directory management, while Cognito Identity Pools provide temporary AWS credentials for authorized users to access AWS resources. 
 
 single-tenant Hardware = Dedicated Hosts. 
+
+To notify the security team 30days before certificate expiration,  Leverage AWS Config managed rule to check if any third-party SSL/TLS certificates imported into ACM are marked for expiration within 30 days.
+Configure the rule to trigger an SNS notification to the security team if any certificate expires within 30 days
