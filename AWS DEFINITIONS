@@ -105,6 +105,7 @@ these are the characteristics of ec2 user-data configuration:
 GuardDuty is for threat detection, Identifies and continously monitors malicious or unauthorized activities in your AWS environment.
 Macie is for data security,Helps discover and protect sensitive data (such as PII) within your AWS environment.
 Inspector is for vulnerability assessment and best practices. Evaluates the security of your AWS resources and provides recommendations.
+These services can be disabled to delete all findings and configurations
 
 Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the cloud
 
