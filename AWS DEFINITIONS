@@ -102,7 +102,7 @@ these are the characteristics of ec2 user-data configuration:
 -script excuted with user-data uses the root-user privilege
 -by default, user-data runs only during the boot-cycle when you first launched an instance.
 
-GuardDuty is for threat detection, Identifies malicious or unauthorized activities in your AWS environment.
+GuardDuty is for threat detection, Identifies and continously monitors malicious or unauthorized activities in your AWS environment.
 Macie is for data security,Helps discover and protect sensitive data (such as PII) within your AWS environment.
 Inspector is for vulnerability assessment and best practices. Evaluates the security of your AWS resources and provides recommendations.
 
