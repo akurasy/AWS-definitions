@@ -271,3 +271,6 @@ Standby instances are temporarily removed the the ASG and TG of the load balance
 
 AWS Direct Connect: Dedicated connection between AWS and On-premise. set up can take almost a month.
 AWS site-to-site VPN: to establish connectivity between AWS and on-premise server. Good for organisation with various branches and takes minimum time to set up.
+
+when you apply retention period to an object version explicitly,  specify retention until date for the object version
+different version of a single object have different retention modes and periods. 
