@@ -277,3 +277,5 @@ when you apply retention period to an object version explicitly,  specify retent
 different version of a single object have different retention modes and periods. 
 
 API Gateway, SQS and KDS are the best services that can handle throttling or buffering during traffic spike
+
+Cognito User Pools handle user authentication and user directory management, while Cognito Identity Pools provide temporary AWS credentials for authorized users to access AWS resources. 
