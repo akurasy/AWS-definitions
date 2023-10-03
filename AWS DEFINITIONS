@@ -295,3 +295,5 @@ Kinesis Agent cannot write to a Kinesis Firehose for which the delivery stream s
 
 DNS hostnames and DNS resolution are required settings for private hosted zones
 
+FXs Luster for Windows file share and File gateway configuration for storage gateway supports SMB protocol
+
