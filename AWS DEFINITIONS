@@ -293,5 +293,5 @@ multi-master DB cluster improves write operation efficiency in your db.
 
 Kinesis Agent cannot write to a Kinesis Firehose for which the delivery stream source is already
 
-
+DNS hostnames and DNS resolution are required settings for private hosted zones
 
