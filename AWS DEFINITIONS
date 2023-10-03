@@ -288,3 +288,8 @@ Configure the rule to trigger an SNS notification to the security team if any ce
 you cannot encrypt AWS RDS replica of the master is not encrypted. The best way to encrypt is to take a snapshot , encrypt the snapshot and delete the master DB, promote the encrypted snapshot as the primary DB. 
 
 Use Global Accelerator to route traffic to a blue/green environment. 
+
+multi-master DB cluster improves write operation efficiency in your db. 
+
+Kinesis Agent cannot write to a Kinesis Firehose for which the delivery stream source is already
+
