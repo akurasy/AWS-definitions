@@ -307,3 +307,5 @@ spot block are designed not to be interrupted
 when you cancel an Active spot request, it does not terminate the instance. 
 If a spot request is persistent, then it is opened again after your Spot Instance is interrupted
 
+Internet gateway provides Network Access Translation to the instances to which it is attached. 
+
