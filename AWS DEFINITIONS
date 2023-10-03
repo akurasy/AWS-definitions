@@ -297,3 +297,7 @@ DNS hostnames and DNS resolution are required settings for private hosted zones
 
 FXs Luster for Windows file share and File gateway configuration for storage gateway supports SMB protocol
 
+Encrypted AMI results in Encrypted snapshot
+you can share AMI accross accounts 
+you can share AMI accross regions 
+
