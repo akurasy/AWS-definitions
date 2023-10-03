@@ -286,3 +286,5 @@ To notify the security team 30days before certificate expiration,  Leverage AWS 
 Configure the rule to trigger an SNS notification to the security team if any certificate expires within 30 days
 
 you cannot encrypt AWS RDS replica of the master is not encrypted. The best way to encrypt is to take a snapshot , encrypt the snapshot and delete the master DB, promote the encrypted snapshot as the primary DB. 
+
+Use Global Accelerator to route traffic to a blue/green environment. 
