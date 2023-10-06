@@ -325,3 +325,5 @@ EBS volume is off instance storage and can persist independently from the life o
 In Amazon SQS, you can configure the message retention period to a value from 1 minute to 14 days. The default is 4 days
 Max message for SQS = 120,000 messages
 Max message for FIFO = 20,000 messages
+
+Amazon EKS is cloud agnostic and open-source 
