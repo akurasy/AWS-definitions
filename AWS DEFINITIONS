@@ -314,4 +314,8 @@ Use dynamodb point in tine recovery to correct the error when an application wri
 You can create an alias record at the top node of a DNS namespace, also known as the zone apex, however, 
 you cannot create a CNAME record for the top node of the DNS namespace. So, if you register the DNS name. e.g routing traffic to www.example.com
 
+Autoscaling COOLING PERIOD: 
+default time is 300secs
+It ensures that the Auto Scaling group does not launch or terminate additional EC2 instances before the previous scaling activity takes effect.
+
 
