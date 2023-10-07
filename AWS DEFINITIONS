@@ -334,3 +334,6 @@ In cases where your EC2 instance cannot be accessed from the Internet (or vice v
 - Does it have an EIP or public IP address?
 - Is the route table properly configured?
 
+Active-Active failover is used when you want all your resources to he active at all times. use weighted routing policy to achieve this. 
+Active-Passive is used when you want most resources to be available. the primary resources is active and the secondary is in standby or passive mode and failover happens when the primary resources goes down. you can use failover routing policy to achieve this. 
+
