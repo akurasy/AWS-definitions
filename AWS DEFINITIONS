@@ -340,3 +340,6 @@ Active-Passive is used when you want most resources to be available. the primary
 provisioned and expedited retrieval helps you to retrieve you data faster from S3. 
 
 only 20 EC2 instances can be provisioned per region. to increase this, contact AWS to increase limit. 
+
+For Amazon Aurora. reader endpoint improves read capability
+cluster endpoint,  improves write capability.
