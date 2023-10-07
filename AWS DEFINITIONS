@@ -67,7 +67,8 @@ Google+, and Amazon. A user pool is a user directory in Amazon Cognito.
 A permissions boundary can be used to control the maximum permissions employees can grant to the IAM principals (that is, users and roles) that they create and manage.
 
 
-AWS Cost Explorer helps you identify under-utilized EC2 instances that may be downsized on an instance by instance basis within the same instance family, 
+AWS Cost Explorer helps you visualize, understand, and analyze your AWS costs and usage. It provides a comprehensive set of tools and features to help you monitor and manage your AWS spending.
+It also helps you identify under-utilized EC2 instances that may be downsized on an instance by instance basis within the same instance family, 
 and also understand the potential impact on your AWS bill by taking into account your Reserved Instances and Savings Plans.
 
 AWS Compute Optimizer recommends optimal AWS Compute resources for your workloads to reduce costs and improve performance by using 
