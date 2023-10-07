@@ -327,3 +327,6 @@ Max message for SQS = 120,000 messages
 Max message for FIFO = 20,000 messages
 
 Amazon EKS is cloud agnostic and open-source 
+
+Pls note a wildcard (*) certificate can only handle multiple sub-domains but not different domains.
+
