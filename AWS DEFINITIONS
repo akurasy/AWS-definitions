@@ -330,3 +330,7 @@ Amazon EKS is cloud agnostic and open-source
 
 Pls note a wildcard (*) certificate can only handle multiple sub-domains but not different domains.
 
+In cases where your EC2 instance cannot be accessed from the Internet (or vice versa), you usually have to check two things:
+- Does it have an EIP or public IP address?
+- Is the route table properly configured?
+
