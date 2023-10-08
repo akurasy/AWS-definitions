@@ -352,3 +352,5 @@ ELB is designed to only run in one region and not across multiple regions.
 
 Dynamodb Streams has the capacity of invoking a Lambda function when Lambda is connected to Dynamodb without seeting up SNS or cloudwatch events. 
 
+A global secondary index can only be created in the region where its parent table resides. It is not a good option for multi region failover. 
+
