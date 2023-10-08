@@ -348,3 +348,7 @@ cluster endpoint,  improves write capability.
 system manager parameter is used for storing application parameters. like password, AMI ID and instance ID. 
 
 ELB is designed to only run in one region and not across multiple regions.
+
+
+Dynamodb Streams has the capacity of invoking a Lambda function when Lambda is connected to Dynamodb without seeting up SNS or cloudwatch events. 
+
