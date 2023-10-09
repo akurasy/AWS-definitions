@@ -355,3 +355,5 @@ Dynamodb Streams has the capacity of invoking a Lambda function when Lambda is c
 A global secondary index can only be created in the region where its parent table resides. It is not a good option for multi region failover. 
 
 AWS AppSync is a serverless GraphQL and Pub/Sub API service that simplifies building modern web and mobile applications
+
+To log API calls on resources, cloudtrail is the best option
