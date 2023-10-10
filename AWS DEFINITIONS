@@ -367,3 +367,9 @@ the above is the S3 website endpoints format.
 
 amazon SQS QUEUE is an even notification destination for amazon S3. 
 FIFO is not a destination. event can be sent to FIFO using Lambda invokation
+
+SSD- workloads involving frequent read-write
+HDD - involving large streaming.
+Provisioned IOPS- supports critical business application 
+
+provisioned IOPS- involving 
