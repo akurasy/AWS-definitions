@@ -364,3 +364,6 @@ by default, cross-zone load balancing is not enabled for NLB but enabled for ALB
 
 http://bucketname.s3website.region.amazonaws.com OR bucketname.s3website-region.amazonaws.com
 the above is the S3 website endpoints format. 
+
+amazon SQS QUEUE is an even notification destination for amazon S3. 
+FIFO is not a destination. event can be sent to FIFO using Lambda invokation
