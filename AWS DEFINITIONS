@@ -362,4 +362,5 @@ Dead Letter Queues are a valuable tool for ensuring message reliability and syst
 
 by default, cross-zone load balancing is not enabled for NLB but enabled for ALB. 
 
-http://bucketname.s3website.region.amazonaws.com or bucketname.s3website-region.amazonaws.com
+http://bucketname.s3website.region.amazonaws.com OR bucketname.s3website-region.amazonaws.com
+the above is the S3 website endpoints format. 
