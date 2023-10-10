@@ -357,3 +357,5 @@ A global secondary index can only be created in the region where its parent tabl
 AWS AppSync is a serverless GraphQL and Pub/Sub API service that simplifies building modern web and mobile applications
 
 To log API calls on resources, cloudtrail is the best option
+
+Dead Letter Queues are a valuable tool for ensuring message reliability and system resilience in messaging systems. They help prevent message loss and enable developers and administrators to diagnose and address issues in the message flow, improving the overall reliability of the messaging infrastructure.
