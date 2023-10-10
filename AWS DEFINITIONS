@@ -372,4 +372,4 @@ SSD- workloads involving frequent read-write
 HDD - involving large streaming.
 Provisioned IOPS- supports critical business application 
 
-provisioned IOPS- involving 
+You can't directly copy data from Snowball Edge devices into AWS Glacier. You must use an S3 lifecycle policy. 
