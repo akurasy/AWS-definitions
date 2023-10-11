@@ -388,3 +388,7 @@ Some of the AWS tasks that only a root account user can do are as follows:
 change account name or root password or root email address, change AWS support plan, close AWS account, enable MFA on S3 bucket delete, create Cloudfront key pair, register for GovCloud.
 
 firewall manger can be configured on VPC, WAF and Shield advance. 
+
+
+For VPC associated with a private hosted zone, enable DNSHostnames and DNSDomainSupport on the VPC. 
+
