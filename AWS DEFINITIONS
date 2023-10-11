@@ -378,3 +378,5 @@ You can't directly copy data from Snowball Edge devices into AWS Glacier. You mu
 
 A site-to-site VPN connects two or more networks over the internet, providing secure communication. supports encryption in transit
 A direct connection involves physically linking two networks without the internet, offering faster and more secure data transfer. no encryption in transit
+
+Global Accelerator is the right choice for multi-region, low latency use cases.
