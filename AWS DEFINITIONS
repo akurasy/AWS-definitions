@@ -7,6 +7,8 @@ consolidated billing allows all aws account in an organisation to be billed as o
 AWS Config provides a detailed view of the configuration of AWS resources in your AWS account. This includes how the resources are related 
 to one another and how they were configured in the past so that you can see how the configurations and relationships change over time.
 
+NLB for network and throughput,  AlB for performance
+
 aws VPN cloudhub is used If you have multiple AWS Site-to-Site VPN connections, you can provide secure communication between sites using the AWS VPN CloudHub.
 This enables your remote sites to communicate with each other, and not just with the VPC. it is suitable if you have a multiple branch office.
 
