@@ -382,3 +382,7 @@ A site-to-site VPN connects two or more networks over the internet, providing se
 A direct connection involves physically linking two networks without the internet, offering faster and more secure data transfer. no encryption in transit
 
 Global Accelerator is the right choice for multi-region, low latency use cases.
+
+
+Some of the AWS tasks that only a root account user can do are as follows: 
+change account name or root password or root email address, change AWS support plan, close AWS account, enable MFA on S3 bucket delete, create Cloudfront key pair, register for GovCloud.
