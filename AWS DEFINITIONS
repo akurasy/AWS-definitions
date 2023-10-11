@@ -374,5 +374,5 @@ Provisioned IOPS- supports critical business application
 
 You can't directly copy data from Snowball Edge devices into AWS Glacier. You must use an S3 lifecycle policy. 
 
-A site-to-site VPN connects two or more networks over the internet, providing secure communication.
-A direct connection involves physically linking two networks without the internet, offering faster and more secure data transfer.
+A site-to-site VPN connects two or more networks over the internet, providing secure communication. supports encryption in transit
+A direct connection involves physically linking two networks without the internet, offering faster and more secure data transfer. no encryption in transit
