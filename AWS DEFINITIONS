@@ -392,3 +392,16 @@ firewall manger can be configured on VPC, WAF and Shield advance.
 
 For VPC associated with a private hosted zone, enable DNSHostnames and DNSDomainSupport on the VPC. 
 
+When the job runs for more than 15mins, Lambda is not an option. 
+Lambda function terminates the process after 15minutes 
+
+Memcached supports multi threading. 
+
+Dynamic port mapping with an Application Load Balancer makes it easier to run multiple tasks on the same Amazon ECS service on an Amazon ECS cluster.
+
+If the instance is already running, you can set DeleteOnTermination to False using the command line.
+
+Pls note: monolithic application cannot span accross 2 AZ. Assigning an Elastic IP is good to mask failure instead of using an ALB. 
+
+Temporary queues help you save development time and deployment costs when using common message patterns such as request-response
+
