@@ -405,3 +405,4 @@ Pls note: monolithic application cannot span accross 2 AZ. Assigning an Elastic 
 
 Temporary queues help you save development time and deployment costs when using common message patterns such as request-response
 
+If you disable GuardDuty, your existing findings and the GuardDuty configuration are lost and can't be recovered
