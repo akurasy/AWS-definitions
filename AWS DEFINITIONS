@@ -314,7 +314,7 @@ If a spot request is persistent, then it is opened again after your Spot Instanc
 
 Internet gateway provides Network Access Translation to the instances to which it is attached. 
 
-Use dynamodb point in tine recovery to correct the error when an application writes corrupted data to dynamo db 
+Use dynamodb point in time recovery to correct the error when an application writes corrupted data to dynamo db 
 
 You can create an alias record at the top node of a DNS namespace, also known as the zone apex, however, 
 you cannot create a CNAME record for the top node of the DNS namespace. So, if you register the DNS name. e.g routing traffic to www.example.com
