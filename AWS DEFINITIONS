@@ -101,7 +101,7 @@ A launch configuration is an instance configuration template that an Auto Scalin
 It is not possible to modify a launch configuration once it is created and uses only a single instance type. 
 
 the reason for unhealthy response by ALB for an healthy instance:
-the route for the health chcek is misconfigured, the SG of the the instance does not allow traffic from the SG o the LB.
+the route for the health check is misconfigured, the SG of the the instance does not allow traffic from the SG of the LB.
 
 these are the characteristics of ec2 user-data configuration:
 -script excuted with user-data uses the root-user privilege
