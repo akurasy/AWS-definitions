@@ -50,7 +50,7 @@ security, performance monitoring, etc
 STEPS IN CREATING A FIFO:
 make sure the name of the FIFO queue ends with the suffix .fifo
 delete existing SQS and recreate it as fifo queue
-make sure the throughput for the fifo target does niot exceed 3000 messages per seconds. this achieved via batching of 10 queues each with 300 throughputs.
+make sure the throughput for the fifo target does not exceed 3000 messages per seconds. this is achieved via batching of 10 queues each with 300 throughputs.
 
 With bucket policies, you can grant users within your AWS Account or other AWS Accounts access to your Amazon S3 resources.
 
