@@ -323,7 +323,7 @@ Autoscaling COOLING PERIOD:
 default time is 300secs
 It ensures that the Auto Scaling group does not launch or terminate additional EC2 instances before the previous scaling activity takes effect.
 
-EBS has live configuration and can volumes can be altered without affecting the application persistency   
+EBS has live configuration and volumes can be altered without affecting the application persistency   
 EBS volume is off instance storage and can persist independently from the life of an instance. 
 
 
